@@ -1,0 +1,12 @@
+{% extends 'main/layout.html'%}
+
+{%block title%}{{title}}{% endblock %}
+
+
+{% block body %}
+<div class="features">
+    <h1>KITTIES</h1>
+    <p>The word "kitten" derives from the Middle English word kitoun, which in turn came from the Old French chitoun or cheton.Juvenile big cats are called "cubs" rather than kittens; either term (but usually more commonly "kitten") may be used for the young of smaller wild felids, such as ocelots, caracals, and lynxes.Kittens develop very quickly from about two weeks of age until their seventh week. Their coordination and strength improve, and they play-fight with their litter-mates and begin to explore the world outside the nest or den. They learn to wash themselves and others as well as play hunting and stalking games, showing their inborn ability as predators. These innate skills are developed by the kittens' mother or other adult cats, who bring live prey to the nest. Later, the mother demonstrates hunting techniques for the kittens to emulate.As they reach three to four weeks old, the kittens are gradually weaned and begin to eat solid food, with weaning usually complete by six to eight weeks.Kittens generally begin to lose their baby teeth around three months of age, and they have a complete set of adult teeth by nine months.Kittens live primarily on solid food after weaning, but usually continue to suckle from time to time until separated from their mothers. Some mother cats will scatter their kittens as early as three months of age, while others continue to look after them until they approach sexual maturity.</p>
+    <a href="{% url 'dogs' %}" ><button class="btn btn-light">To puppies🐶</button></a>
+</div>
+{% endblock %}

@@ -1,0 +1,73 @@
+body {
+    background: #9f7cf1;
+    }
+    
+    aside {
+    float: left;
+    background: #5e52ff;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #481eb2;
+    }
+
+    aside img {
+        width: 180px;
+        float: left
+    }
+
+    aside .kitty {
+        font-size: 30px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    aside h3{
+        text-align: center;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    aside ul {list-style: none;}
+    aside ul li {
+        color: #fff;
+        display: block;
+        margin-top: 20px;
+        transition: transform .6s ease;
+    }
+
+    aside ul li:hover, aside ul a:hover {
+        color:#9f7cf1;
+        text-decoration: none;
+        transform: scale(1.30);
+    }
+
+    main .features {
+        float: left;
+        color: #ebd211;
+        margin-top: 20px;
+        text-align: center;
+        width: 75%
+    }
+
+    main .fam {
+        float: left;
+        color: #ebd211;
+        margin-top: 20px;
+        text-align: center;
+        width: 75%;
+    }
+
+    main .fam h1 {margin-left: 100px;}
+    main .features h1 {font-size: 50px;}
+    main .features p {max-width: 400; margin: 20px auto}
+
+.alert {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}

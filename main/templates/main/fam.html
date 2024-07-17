@@ -1,0 +1,20 @@
+{% extends 'main/layout.html'%}
+
+{%block title%}family{% endblock %}
+
+
+{% block body %}
+<div class="fam">
+    <h1>ABOUT FAMILIES</h1>
+    <div class='alert alert-info'>
+        <h3>Cat Family</h3>
+        <p>Felidae</p>
+        <a href="{% url 'felidae' %}" class="btn btn-light">Read more</a>
+    </div>
+    <div class='alert alert-success'>
+        <h3>Dog Family</h3>
+        <p>Canidae</p>
+        <a href="{% url 'canidae' %}" class="btn btn-light">Read more</a>
+    </div>
+</div>
+{% endblock %}
